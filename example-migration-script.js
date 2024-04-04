@@ -1,4 +1,4 @@
-
+import fs from 'fs';
 import sanitizeHtml from 'sanitize-html';
 import { Schema } from '@sanity/schema';
 import { htmlToBlocks, getBlockContentFeatures } from '@sanity/block-tools';
